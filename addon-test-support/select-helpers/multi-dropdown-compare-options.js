@@ -1,5 +1,5 @@
 import { click } from '@ember/test-helpers';
-import { getStringsArrayFromHtml } from './utils';
+import { getStringsArrayFromHtml } from '../utils';
 import customClick from './dom-helpers/custom-click';
 import customFind from './dom-helpers/custom-find';
 
