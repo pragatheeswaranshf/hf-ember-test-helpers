@@ -20,5 +20,5 @@ export { default as multiDropdownCompareOptions } from './select-helpers/multi-d
 export { default as searchAndSelect } from './select-helpers/search-and-select';
 export { default as selectCompareOptions } from './select-helpers/select-compare-options';
 
-export { default as selectColor } from './select-helpers/select-color';
-export { default as selectDate } from './select-helpers/select-date';
+export { default as selectColor } from './helpers/select-color';
+export { default as selectDate } from './helpers/select-date';
