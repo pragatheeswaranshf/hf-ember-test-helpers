@@ -1,4 +1,4 @@
-import { getPenultimateRequest } from './get-penultimate-request';
+import getPenultimateRequest from './get-penultimate-request';
 
 export default function getPenultimateRequestBody() {
   const request = getPenultimateRequest();
