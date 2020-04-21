@@ -1,6 +1,6 @@
 import { click } from '@ember/test-helpers'
 import { getStringsArrayFromHtml } from '../utils';
-import customFind from './dom-helpers/custom-find';
+import customFind from '../dom-helpers/custom-find';
 
 export default async function selectCompareOptions(assert, jsTestClass, values, message = 'Choices are rendered correctly.', persistOrder = false) {
   await click(`hf-js-test-${jsTestClass} .ember-power-select-trigger`);

@@ -1,7 +1,7 @@
 import { click } from '@ember/test-helpers';
 import { getStringsArrayFromHtml } from '../utils';
-import customClick from './dom-helpers/custom-click';
-import customFind from './dom-helpers/custom-find';
+import customClick from '../dom-helpers/custom-click';
+import customFind from '../dom-helpers/custom-find';
 
 export default async function multiDropdownCompareOptions(assert, selector, value, message = 'Choices are rendered correctly.') {
   await customClick(selector);
