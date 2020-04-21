@@ -1,6 +1,6 @@
 function getHandledRequests() {
   // eslint-disable-next-line no-undef
-  return server.pretender.handledRequests();
+  return server.pretender.handledRequests;
 }
 
 export { getHandledRequests };
