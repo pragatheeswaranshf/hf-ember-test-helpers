@@ -13,3 +13,12 @@ export { default as getPenultimateRequest } from './request-helpers/get-penultim
 export { default as getRequestBody } from './request-helpers/get-request-body';
 export { default as getRequestQueryParams } from './request-helpers/get-request-query-params';
 export { default as getRequest } from './request-helpers/get-request';
+
+export { default as getSelectedValue } from './select-helpers/get-selected-value';
+export { default as multiDropdownChoose } from './select-helpers/multi-dropdown-choose';
+export { default as multiDropdownCompareOptions } from './select-helpers/multi-dropdown-compare-options';
+export { default as searchAndSelect } from './select-helpers/search-and-select';
+export { default as selectCompareOptions } from './select-helpers/select-compare-options';
+
+export { default as selectColor } from './select-helpers/select-color';
+export { default as selectDate } from './select-helpers/select-date';

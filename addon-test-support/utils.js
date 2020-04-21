@@ -3,4 +3,13 @@ function getHandledRequests() {
   return server.pretender.handledRequests;
 }
 
-export { getHandledRequests };
+function getStringsArrayFromHtml(html) {
+  return Array.from(html).map((node) => {
+    return node.innerText;
+  })
+}
+
+export {
+  getHandledRequests,
+  getStringsArrayFromHtml
+};
