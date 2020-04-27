@@ -5,5 +5,5 @@ export default async function uploadFile(selector, content = ['Sample Content'],
   const file = new Blob(content, { type: type ? type : 'text/plain' });
   file.name = name ? name : 'test.txt';
 
-  return customTriggerEvent(selector, 'change', { testingFiles: [file] });
+  return customTriggerEvent(selector, 'change', { files: [file] });
 }
