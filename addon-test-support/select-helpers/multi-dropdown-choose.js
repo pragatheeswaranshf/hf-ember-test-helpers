@@ -26,5 +26,5 @@ export default async function multiDropdownChoose(selector, values) {
     }
     await Promise.all(clickActions);
   }
-  return click(customFind('form-field-multichoice-dropdown .hf-pop-over_close-icon')[0]);
+  return click('[data-test-id="form-field-multichoice-dropdown"] .hf-pop-over_close-icon');
 }
