@@ -1,5 +1,6 @@
-import { getCustomQueryString } from '../utils';
-
+/* eslint-disable ember/no-jquery */
+/* eslint-disable ember/no-global-jquery */
 export default function customFind(selector) {
-  return document.querySelectorAll(getCustomQueryString(selector));
+  // eslint-disable-next-line no-undef
+  return $(`[data-test-id="${selector}"]`);
 }

@@ -11,7 +11,7 @@ export default async function multiDropdownChoose(selector, values) {
     await customClick('form-field-entities-unselect-all');
   } else {
     // Removing already selected choices
-    const checkBoxes = Array.from(customFind('entity-dropdown-option-check-box'));
+    const checkBoxes = customFind('entity-dropdown-option-check-box');
     const uncheckActions = [];
     for (let checkBox of checkBoxes) {
       if (checkBox.checked) {
