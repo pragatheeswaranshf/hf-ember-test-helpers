@@ -1,3 +1,4 @@
 export default function getSelectedValue(jsTestClass) {
-  return document.querySelector(`.hf-js-test-${jsTestClass} .ember-power-select-selected-item`).innerText;
+  const element = document.querySelector(`.hf-js-test-${jsTestClass} .ember-power-select-selected-item`);
+  return element ? element.innerText : '';
 }
