@@ -1,4 +1,4 @@
-import { getRequest } from './get-request';
+import getRequest from './get-request';
 
 export default function getRequestQueryParams() {
   const request = getRequest();
