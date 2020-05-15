@@ -1,5 +1,5 @@
 import { click, fillIn, triggerKeyEvent } from '@ember/test-helpers';
-import { customFind } from '../dom-helpers/custom-find';
+import customFind from '../dom-helpers/custom-find';
 
 export default async function selectColor(selector, value) {
   await click(customFind(selector).find('.sp-replacer')[0]);
