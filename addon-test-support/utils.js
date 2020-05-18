@@ -5,7 +5,7 @@ function getHandledRequests() {
 
 function getStringsArrayFromHtml(html) {
   return Array.from(html).map((node) => {
-    return node.innerText;
+    return node.innerText.trim();
   })
 }
 
